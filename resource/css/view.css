@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-color: #1c1c1c;
+}
+
+h3{
+  font-weight: bolder;
+}
+h4{
+  font-weight: bolder;
+  line-height: normal;
+}
+
+table{
+  width: 100%;
+  table-layout: fixed;
+  color: black;
+}
+th{
+  padding: 20px 15px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 15px;
+  color: #000;
+  text-transform: uppercase;
+}
+td{
+  padding: 15px;
+  text-align: left;
+  vertical-align: middle;
+  font-weight: 300;
+  font-size: 15px;
+  color: #000;
+  border-bottom: solid 1px #000;
+}
+
+.container{
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  border-radius: 30px;
+  padding: 70px;
+  background-color: white;
+  margin-top: 2.5%;
+}
+.logo{
+  font-size: 60px;
+  background: linear-gradient(to right, #00FEC0 0%, #04FE00 100% );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+  letter-spacing: 4px;
+}
+
+.header{
+  background: linear-gradient(98deg, rgb(0, 254, 192) 0%, rgb(4, 254, 0) 100%);
+ }
+
+.content{
+  height: 300px;
+  overflow-x:auto;
+  margin-top: 0px;
+  border: 1px solid rgba(255,255,255,0.3);
+}
+.button2 {
+  margin: 10px;
+  width: 9em;
+  height: 3em;
+  border-radius: 30em;
+  font-size: 15px;
+  font-family: inherit;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: 6px 6px 12px #c5c5c5,
+              -6px -6px 12px #ffffff;
+ }
+ 
+ .button2::before {
+  content: '';
+  width: 0;
+  height: 3em;
+  border-radius: 30em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to right, #04FE00 0%, #F7FE00 100%);
+  transition: .5s ease;
+  display: block;
+  z-index: -1;
+ }
+ 
+ .button2:hover::before {
+  width: 9em;
+ }
+a{
+  color: #000;
+  font-size: 13px;
+  font-family: inherit;
+}
+a:hover {
+  text-decoration: none;
+ }
+
+.serv-txt{
+  font-size: 170px;
+}
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
