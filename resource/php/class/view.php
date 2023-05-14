@@ -1,5 +1,5 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'].'/Queueing System/resource/php/class/core/init.php';
+require_once $_SERVER['DOCUMENT_ROOT'].'/quesys/resource/php/class/core/init.php';
 require_once 'config.php';
 
 class view extends config{
